@@ -1,0 +1,82 @@
+body {
+  color: #333;
+}
+.cards-block {
+  margin: 20px;
+}
+.card {
+  display: block;
+  height: 50px;
+  width: 80px;
+  margin: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.card-id-1 {
+  background-image: url(../images/svg/visa_electron.svg);  
+}
+.card-id-2 {
+  background-image: url(../images/svg/mastercard.svg);  
+}
+.card-id-3 {
+  background-image: url(../images/svg/maestro.svg);  
+}
+.card-id-4 {
+  background-image: url(../images/svg/american-express.svg);  
+}
+.card-id-5 {
+  background-image: url(../images/svg/mir.svg);  
+}
+.card-active {
+  opacity: 1;
+}
+
+.error-check {
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  color: #9c1e1e;
+}
+.hidden {
+  display: none;
+}
+
+.form-container, .cards-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  font-size: 1rem;
+  padding: 0 .75rem;
+  font-size: 1rem;
+  height: 100%;
+  color: #495057;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: .35rem;     
+}
+
+.btn {
+  margin-left: 5px; 
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: .375rem .75rem;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .35rem;
+  border: 1px solid #ced4da;
+  background-color: rgb(89, 151, 89);  
+}
+
+.invalid {
+  color:brown;
+}
+.valid {
+  color: green;
+}
