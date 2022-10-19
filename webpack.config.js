@@ -41,7 +41,7 @@ module.exports = {
       {
         test: /\.(?:ico|gif|png|jpg|jpeg|svg)$/,
         type: 'asset/resource',
-      }, 
+      },
     ],
   },
   plugins: [
@@ -56,4 +56,3 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
   ],
 };
-

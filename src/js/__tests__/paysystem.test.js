@@ -1,4 +1,4 @@
-import {cardSysValidate} from '../pay.system.check';
+import cardSysValidate from '../pay.system.check';
 
 test.each([
   ['342344', false],

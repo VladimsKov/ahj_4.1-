@@ -1,4 +1,4 @@
-import {isValidInn} from '../validators';
+import isValidInn from '../validators';
 
 test.each([
   ['342344', false],
@@ -9,7 +9,7 @@ test.each([
   ['2346518446923484', true],
   ['5108903469695532', false],
   ['3537043594820835', true],
-  ['133413', true]
+  ['133413', true],
 ])('cardNumber %s returns %s', (value, expected) => {
   expect(isValidInn(value)).toBe(expected);
 });
